@@ -39,9 +39,9 @@ class Contact implements ActionListener {
 		b2.setBounds(210, 300, 170, 30);
 		// add all gui statements that we created
 		f.getContentPane().add(l1);
-		f.getContentPane().add(l2);
-		f.getContentPane().add(t);
-		f.getContentPane().add(ta);
+		f.getContentPane().add(l2);//label l2
+		f.getContentPane().add(t);//textbox t
+		f.getContentPane().add(ta);//textarea ta
 		f.getContentPane().add(b1);
 		f.getContentPane().add(b2);
 
@@ -87,6 +87,6 @@ class Contact implements ActionListener {
 
 	public static void main(String args[]) { // main method that calls contact
 												// object
-		new Contact();
+		new Contact();//contact is executed
 	}
 }
